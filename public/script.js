@@ -10,7 +10,7 @@ while (user.length == 0) {
 
 var peer = new Peer(undefined, {
   path: "/peerjs",
-  port: "3030",
+  port: "443",
   host: "/",
 });
 
