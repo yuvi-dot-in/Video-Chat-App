@@ -3,10 +3,6 @@ myVideo.muted = true;
 myVideo.autoplay = true;
 videoGrid = document.getElementById("video-grid");
 const socket = io("/");
-let user = "";
-while (user.length == 0) {
-  user = prompt("Enter Your Name", "");
-}
 
 var peer = new Peer(undefined, {
   path: "/peerjs",
